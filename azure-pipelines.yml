@@ -11,13 +11,13 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '7abb5ee1-e254-4fcd-b0db-38ad133b64bf'
-  imageRepository: 'vinodkyadavdockermvccussfull'
+  imageRepository: 'dockermvclatest'
   containerRegistry: 'dockermvc20210728234530.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'windows-latest'
 
 stages:
 - stage: Build
