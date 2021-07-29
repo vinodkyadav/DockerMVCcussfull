@@ -14,7 +14,7 @@ variables:
   imageRepository: 'dockermvclatest'
   containerRegistry: 'dockermvc20210728234530.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'latest'
 
   # Agent VM image name
   vmImageName: 'windows-latest'
